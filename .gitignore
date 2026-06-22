@@ -1,0 +1,6 @@
+### venv ###
+# Virtualenv
+env/
+
+#csv
+*.csv
