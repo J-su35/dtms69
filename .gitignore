@@ -4,3 +4,9 @@ env/
 
 #csv
 *.csv
+
+#pycache
+__pycache__
+
+#agents
+.agents
