@@ -5,6 +5,9 @@ env/
 #csv
 *.csv
 
+#
+*.parquet
+
 #pycache
 __pycache__
 
