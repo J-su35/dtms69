@@ -2,6 +2,9 @@
 # Virtualenv
 env/
 
+# reports
+reports/
+
 #csv
 *.csv
 
