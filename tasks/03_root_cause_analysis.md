@@ -14,6 +14,11 @@ comparison_result.parquet
 
 validation_report.md
 
+Analyze each `scenario_id` independently. When an event occurs only in S1
+and disappears or materially improves in S2, classify the missing/abnormal
+December profile of PEA_No `6200031084` as supporting evidence, not as
+confirmed root cause.
+
 ---
 
 # Trigger Condition
@@ -227,6 +232,10 @@ Duration
 Maximum Error
 
 Average Error
+
+Maximum kWh Error
+
+Average kWh Error
 
 Likely Cause
 

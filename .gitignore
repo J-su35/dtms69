@@ -8,6 +8,9 @@ reports/
 #csv
 *.csv
 
+#txt
+*.txt
+
 #
 *.parquet
 

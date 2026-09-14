@@ -20,6 +20,8 @@ comparison_statistics.csv
 
 root_cause_summary.csv
 
+comparison_statistics_by_scenario.csv
+
 ---
 
 # Workflow
@@ -104,6 +106,11 @@ Minimum error
 
 Generate monthly comparison table.
 
+Present kW and kWh metrics separately. Include a scenario comparison table
+for S1 (three observed months), S2 (three months with the December median
+profile replacement for PEA_No 6200031084), and S3 (October–November only).
+State clearly that S2 is a sensitivity analysis, not an observed-data result.
+
 ---
 
 ## Step 5
@@ -143,6 +150,9 @@ Worst anomaly
 Most affected transformer
 
 Generate statistics.
+
+Show the event count and duration by scenario, and identify events whose
+classification changes between S1 and S2.
 
 ---
 
@@ -197,6 +207,9 @@ Evaluate
 Can DTMS represent aggregated AMI?
 
 How accurate?
+
+Answer both questions for kW and kWh, and distinguish observed-data findings
+from the S2 sensitivity result.
 
 Under what conditions?
 

@@ -1,0 +1,60 @@
+# Root cause analysis
+
+## Triggered persistent events
+
+| transformer_id | start_time | end_time | duration_minutes | max_error_pct | average_error_pct | anomaly_type | likely_cause | confidence | recommended_action | priority |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 67-018400 | 2025-10-01 12:00:00 | 2025-10-01 14:00:00 | 135.000 | 66.559 | 37.479 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-02 01:00:00 | 2025-10-02 03:00:00 | 135.000 | 28.518 | 17.359 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-02 04:45:00 | 2025-10-02 05:30:00 | 60.000 | 29.119 | 22.082 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-02 09:45:00 | 2025-10-02 14:15:00 | 285.000 | 100.988 | 38.889 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-02 15:15:00 | 2025-10-02 16:15:00 | 75.000 | 40.262 | 29.058 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-02 18:15:00 | 2025-10-02 19:00:00 | 60.000 | 23.715 | 19.134 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-02 19:30:00 | 2025-10-02 20:15:00 | 60.000 | 27.317 | 18.172 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-03 03:30:00 | 2025-10-03 04:30:00 | 75.000 | 27.012 | 19.746 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-03 05:00:00 | 2025-10-03 06:15:00 | 90.000 | 22.727 | 17.389 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-03 09:15:00 | 2025-10-03 13:00:00 | 240.000 | 108.303 | 46.050 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-03 15:30:00 | 2025-10-03 16:15:00 | 60.000 | 38.257 | 27.446 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-03 18:15:00 | 2025-10-03 19:30:00 | 90.000 | 29.260 | 17.222 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-04 06:30:00 | 2025-10-04 07:15:00 | 60.000 | 50.267 | 32.983 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-04 10:00:00 | 2025-10-04 12:00:00 | 135.000 | 76.846 | 42.873 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-04 13:30:00 | 2025-10-04 15:30:00 | 135.000 | 45.779 | 23.593 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-05 02:45:00 | 2025-10-05 05:00:00 | 150.000 | 15.764 | 12.876 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-05 10:00:00 | 2025-10-05 11:00:00 | 75.000 | 36.631 | 21.184 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-05 22:00:00 | 2025-10-05 22:45:00 | 60.000 | 21.671 | 17.367 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-06 03:45:00 | 2025-10-06 05:15:00 | 105.000 | 22.667 | 14.676 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-06 09:00:00 | 2025-10-06 14:00:00 | 315.000 | 98.743 | 57.057 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-06 19:00:00 | 2025-10-06 20:30:00 | 105.000 | 32.748 | 18.267 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-07 05:30:00 | 2025-10-07 06:15:00 | 60.000 | 33.340 | 20.665 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-07 09:45:00 | 2025-10-07 10:30:00 | 60.000 | 25.825 | 21.021 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-07 11:00:00 | 2025-10-07 12:30:00 | 105.000 | 89.728 | 40.321 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-07 14:30:00 | 2025-10-07 15:30:00 | 75.000 | 19.640 | 12.903 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-07 16:00:00 | 2025-10-07 16:45:00 | 60.000 | 25.352 | 19.955 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-07 18:00:00 | 2025-10-07 18:45:00 | 60.000 | 23.641 | 15.953 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-07 19:45:00 | 2025-10-07 20:30:00 | 60.000 | 27.025 | 17.210 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-08 00:30:00 | 2025-10-08 01:45:00 | 90.000 | 32.372 | 17.576 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-08 02:15:00 | 2025-10-08 03:30:00 | 90.000 | 32.894 | 20.795 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-08 04:45:00 | 2025-10-08 06:00:00 | 90.000 | 27.956 | 20.573 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-08 09:45:00 | 2025-10-08 12:15:00 | 165.000 | 131.148 | 42.784 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-08 13:15:00 | 2025-10-08 14:00:00 | 60.000 | 89.425 | 62.730 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-08 14:30:00 | 2025-10-08 15:15:00 | 60.000 | 36.343 | 26.269 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-08 17:30:00 | 2025-10-08 19:45:00 | 150.000 | 28.247 | 18.210 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-08 23:15:00 | 2025-10-09 00:15:00 | 75.000 | 25.047 | 17.540 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-09 01:45:00 | 2025-10-09 04:30:00 | 180.000 | 25.982 | 16.897 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-09 05:00:00 | 2025-10-09 06:15:00 | 90.000 | 33.543 | 20.884 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-09 09:00:00 | 2025-10-09 15:15:00 | 390.000 | 149.409 | 56.152 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-09 18:15:00 | 2025-10-09 19:15:00 | 75.000 | 18.263 | 14.596 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-09 19:45:00 | 2025-10-09 20:30:00 | 60.000 | 27.527 | 22.610 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-09 21:15:00 | 2025-10-09 22:45:00 | 105.000 | 19.284 | 14.867 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-10 00:30:00 | 2025-10-10 01:15:00 | 60.000 | 23.215 | 15.797 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-10 04:30:00 | 2025-10-10 05:15:00 | 60.000 | 14.883 | 12.733 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-10 14:30:00 | 2025-10-10 17:00:00 | 165.000 | 44.983 | 22.495 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-10 17:45:00 | 2025-10-10 18:30:00 | 60.000 | 18.928 | 14.289 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-10 19:45:00 | 2025-10-10 20:30:00 | 60.000 | 20.904 | 15.812 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-10 21:30:00 | 2025-10-10 22:15:00 | 60.000 | 26.625 | 20.366 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-10 23:15:00 | 2025-10-11 01:00:00 | 120.000 | 26.795 | 21.836 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+| 67-018400 | 2025-10-11 01:30:00 | 2025-10-11 02:30:00 | 75.000 | 28.551 | 20.311 | Persistent discrepancy | Systematic measurement/aggregation mismatch | Medium | Verify meter-to-transformer mapping and CT/PT ratios | High |
+
+## Interpretation
+
+The dominant root-cause candidate is a systematic measurement or aggregation mismatch. Because source timestamps, transformer mapping, and DTMS sampling provenance are absent, clock shift and incomplete mapping cannot be separated from electrical causes. Field conclusions therefore require source-export remediation first.
